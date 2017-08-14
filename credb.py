@@ -3,7 +3,7 @@ import MySQLdb
 db_host = 'localhost'
 db_user = 'root'
 db_pw = '1234'
-db_name = 'ipb'
+db_name = 'ipb_rebuild'
 
 try:
 	db = MySQLdb.connect(db_host,db_user,db_pw,charset='utf8')

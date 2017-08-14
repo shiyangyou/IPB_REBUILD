@@ -4,12 +4,12 @@ import MySQLdb
 
 sub_di = {}
 
-db = MySQLdb.connect(host="localhost",user="root",passwd="1234",db="ipb")
+db = MySQLdb.connect(host="localhost",user="root",passwd="1234",db="ipb_rebuild")
 table = "ips2view"
 cursor = db.cursor()
 
 
-f = open("C:/Users/youss/Desktop/newips2pop.json")
+f = open("newips2pop.json")
 df = f.read()
 di = json.loads(df)
 
